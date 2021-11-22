@@ -11,6 +11,7 @@
   
   li {
     list-style: none;
+    margin: 0 50px 0 50px;
   }
   
   a {
@@ -28,14 +29,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    border-bottom: 2px groove gray;
   }
   .logo {
-    margin: 20px 20px 10px 10px;
+    margin: 10px 20px 5px 10px;
   }
   
   nav > ul {
     width: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
   }
