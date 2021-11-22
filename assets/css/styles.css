@@ -7,6 +7,10 @@
   body {
     background-color: lightgreen;
     font-family: Didot, serif;
+    background-image:
+      url(https://ak.picdn.net/shutterstock/videos/31184113/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   li {
