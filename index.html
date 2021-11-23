@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Teabox</title>
 </head>
-  <body>
+  <body id="wrapper">
     <header id="header">
         <div class="logo">
              <img
@@ -22,9 +22,24 @@
                <li><a class="nav-link" href="#benefits">Benefits</a></li>
                <li><a class="nav-link" href="#whats-in-it">What's in Teabox?</a></li>
              </ul>
-           </nav>
-           
+           </nav>         
          </header>
+
+         <div class="container"></div>
+
+         <section id="hero">
+          <h2>Deeply aromatic and great tasting teas</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <input id="submit" type="submit" value="Get Started" class="btn" />
+          </form>
+        </section>
     
   </body>
 </html>
