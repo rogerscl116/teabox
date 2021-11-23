@@ -53,17 +53,28 @@ nav > ul {
 }
 
 section {
-  margin: 10px 300px;
+  margin: 25px 300px;
   border-radius: 5px;
 }
 
-h2 {
+#hero > h2 {
   color: black;
   text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  
 }
 
 #form {
   text-align: center;
+}
+
+.email {
+  margin: 10px;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .btn {
