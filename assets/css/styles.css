@@ -9,12 +9,18 @@ body {
   background-image:
     url(https://ak.picdn.net/shutterstock/videos/31184113/thumb/1.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 li {
+  margin: 5px;
+  padding: 5px;
   list-style: none;
   margin: 0 50px 0 50px;
+}
+
+.list {
+  list-style: circle;
 }
 
 a {
@@ -87,4 +93,54 @@ section {
   border-radius: 3px;
   background: lightgreen;
   cursor: pointer;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+#benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-top: 2px groove gray;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: #4444;
+}
+
+@media (max-width: 1024px) {
+  li {
+    margin: 0 25px 0 25px;
+  }
+  header {
+    width: auto;    
+  }
+  section {
+    margin: 25px 100px;
+  }
 }
